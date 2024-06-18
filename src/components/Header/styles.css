@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  background: var(--gray-700);
+  height: 12.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo img {
+  width: 22px;
+  height: 36px;
+}
+
+.header h1 {
+  color: var(--blue-300);
+  margin-left: 10px;
+  font-weight: 900;
+  font-size: 2.4rem;
+}
+
+.header span {
+  color: var(--purple-500);
+}
