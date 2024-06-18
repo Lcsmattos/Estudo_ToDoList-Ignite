@@ -39,16 +39,24 @@ main .addNewTask button {
   font-size: 16px;
 }
 
+main .addNewTask button:hover {
+  background: var(--blue-300);
+}
+
+main .addNewTask button:disabled {
+  background: #1e709fa7;
+  color: var(--white);
+  border: none;
+}
+
 main .tasksList {
   display: flex;
   flex-direction: column;
   width: 60%;
-  max-height: 400px;
   align-items: center;
   justify-content: center;
   margin-top: 25px;
-  overflow-y: scroll;
-  scrollbar-width: none;
+  margin-bottom: 70px;
 }
 
 main .tasksInfo {
